@@ -4,7 +4,6 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.TextView;
-import com.example.android.americanfootballscores.R;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -114,8 +113,6 @@ public class MainActivity extends AppCompatActivity {
 
     /**   End of Home Team Scores */
 
-
-
     /**
      * Reset scores
      */
@@ -126,4 +123,7 @@ public class MainActivity extends AppCompatActivity {
         displayForHomeTeam(homeScore);
     }
 
+    private void tesGITtUpload(){
+        int i = 1 + 1;
+    }
 }
